@@ -1,0 +1,324 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Script" path="res://Scripts/Hud.cs" id="1"]
+[sub_resource type="StyleBoxFlat" id="PanelStyle"]
+bg_color = Color(0.055, 0.12, 0.15, 0.97)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_left = 20
+corner_radius_bottom_right = 20
+border_width_top = 4
+border_color = Color(0.97, 0.72, 0.28, 1)
+[sub_resource type="StyleBoxFlat" id="ButtonStyle"]
+bg_color = Color(0.97, 0.72, 0.28, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_left = 8
+corner_radius_bottom_right = 8
+[sub_resource type="StyleBoxFlat" id="HoverStyle"]
+bg_color = Color(1, 0.85, 0.49, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_left = 8
+corner_radius_bottom_right = 8
+[sub_resource type="StyleBoxFlat" id="FocusStyle"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 0.9, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_left = 8
+corner_radius_bottom_right = 8
+
+[node name="Hud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="LapTitle" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0
+anchor_right = 0.5
+anchor_bottom = 0
+offset_left = -120
+offset_top = 18
+offset_right = 120
+offset_bottom = 40
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.65, 0.76, 0.76, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 13
+text = "LAP"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Lap" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0
+anchor_right = 0.5
+anchor_bottom = 0
+offset_left = -120
+offset_top = 38
+offset_right = 120
+offset_bottom = 81
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.945, 0.933, 0.86, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 34
+text = "1 / 3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TimeTitle" type="Label" parent="."]
+anchor_left = 1
+anchor_top = 0
+anchor_right = 1
+anchor_bottom = 0
+offset_left = -320
+offset_top = 16
+offset_right = -30
+offset_bottom = 38
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.65, 0.76, 0.76, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 12
+text = "RACE TIME"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Time" type="Label" parent="."]
+anchor_left = 1
+anchor_top = 0
+anchor_right = 1
+anchor_bottom = 0
+offset_left = -320
+offset_top = 34
+offset_right = -30
+offset_bottom = 69
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.945, 0.933, 0.86, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 28
+text = "00:00.00"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="LapTime" type="Label" parent="."]
+anchor_left = 1
+anchor_top = 0
+anchor_right = 1
+anchor_bottom = 0
+offset_left = -410
+offset_top = 72
+offset_right = -30
+offset_bottom = 90
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.65, 0.76, 0.76, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 11
+text = "LAP  00:00.00"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Speed" type="Label" parent="."]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -207
+offset_top = -168
+offset_right = -61
+offset_bottom = -103
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.945, 0.933, 0.86, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 52
+text = "000"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SpeedUnit" type="Label" parent="."]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -200
+offset_top = -108
+offset_right = -68
+offset_bottom = -83
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.65, 0.76, 0.76, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 13
+text = "KM/H"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Needle" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+[node name="WrongWay" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0
+anchor_right = 0.5
+anchor_bottom = 0
+offset_left = -240
+offset_top = 116
+offset_right = 240
+offset_bottom = 151
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.97, 0.72, 0.28, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 22
+text = "WRONG WAY   /   TURN AROUND"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Countdown" type="Control" parent="."]
+anchor_left = 0.5
+anchor_top = 0.38
+anchor_right = 0.5
+anchor_bottom = 0.38
+mouse_filter = 2
+
+[node name="Number" type="Label" parent="Countdown"]
+anchor_left = 0
+anchor_top = 0
+anchor_right = 0
+anchor_bottom = 0
+offset_left = -220
+offset_top = -75
+offset_right = 220
+offset_bottom = 75
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.945, 0.933, 0.86, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 110
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Menu" type="Control" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 0
+[node name="Dim" type="ColorRect" parent="Menu"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color(0.025, 0.06, 0.08, 0.6)
+[node name="Panel" type="Panel" parent="Menu"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -273.0
+offset_right = 250.0
+offset_bottom = 273.0
+theme_override_styles/panel = SubResource("PanelStyle")
+
+[node name="Title" type="Label" parent="Menu/Panel"]
+anchor_left = 0
+anchor_top = 0
+anchor_right = 0
+anchor_bottom = 0
+offset_left = 0
+offset_top = 65
+offset_right = 500
+offset_bottom = 165
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.945, 0.933, 0.86, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 80
+text = "GOAL!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Result" type="Label" parent="Menu/Panel"]
+anchor_left = 0
+anchor_top = 0
+anchor_right = 0
+anchor_bottom = 0
+offset_left = 0
+offset_top = 210
+offset_right = 500
+offset_bottom = 275
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.945, 0.933, 0.86, 1)
+theme_override_colors/font_shadow_color = Color(0.02, 0.06, 0.08, 0.3)
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 23
+text = "RACE  00:00.00
+BEST LAP  --:--.--"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Resume" type="Button" parent="Menu/Panel"]
+offset_left = 70.0
+offset_top = 306
+offset_right = 430.0
+offset_bottom = 360
+theme_override_colors/font_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_hover_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_pressed_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_focus_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("ButtonStyle")
+theme_override_styles/hover = SubResource("HoverStyle")
+theme_override_styles/pressed = SubResource("HoverStyle")
+theme_override_styles/focus = SubResource("FocusStyle")
+text = "Resume"
+
+[node name="RaceAgain" type="Button" parent="Menu/Panel"]
+offset_left = 70.0
+offset_top = 376
+offset_right = 430.0
+offset_bottom = 430
+theme_override_colors/font_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_hover_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_pressed_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_focus_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("ButtonStyle")
+theme_override_styles/hover = SubResource("HoverStyle")
+theme_override_styles/pressed = SubResource("HoverStyle")
+theme_override_styles/focus = SubResource("FocusStyle")
+text = "Race Again"
+
+[node name="Exit" type="Button" parent="Menu/Panel"]
+offset_left = 70.0
+offset_top = 446
+offset_right = 430.0
+offset_bottom = 500
+theme_override_colors/font_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_hover_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_pressed_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_colors/font_focus_color = Color(0.055, 0.12, 0.15, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("ButtonStyle")
+theme_override_styles/hover = SubResource("HoverStyle")
+theme_override_styles/pressed = SubResource("HoverStyle")
+theme_override_styles/focus = SubResource("FocusStyle")
+text = "Exit"

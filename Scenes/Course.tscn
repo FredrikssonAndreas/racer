@@ -1,0 +1,1665 @@
+[gd_scene load_steps=205 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Course.cs" id="1"]
+[ext_resource type="PackedScene" path="res://Art/Models/oval_course.glb" id="2"]
+
+[sub_resource type="BoxShape3D" id="GroundShape"]
+size = Vector3(320, 1, 340)
+[sub_resource type="BoxShape3D" id="GateShape"]
+size = Vector3(15, 3, 1.5)
+
+[sub_resource type="BoxShape3D" id="Wall0_Inner"]
+size = Vector3(0.48, 1.04, 2.6522880764245875)
+
+[sub_resource type="BoxShape3D" id="Wall1_Inner"]
+size = Vector3(0.48, 1.04, 2.642748530360897)
+
+[sub_resource type="BoxShape3D" id="Wall2_Inner"]
+size = Vector3(0.48, 1.04, 2.623715461848655)
+
+[sub_resource type="BoxShape3D" id="Wall3_Inner"]
+size = Vector3(0.48, 1.04, 2.595283075009162)
+
+[sub_resource type="BoxShape3D" id="Wall4_Inner"]
+size = Vector3(0.48, 1.04, 2.5575924544091553)
+
+[sub_resource type="BoxShape3D" id="Wall5_Inner"]
+size = Vector3(0.48, 1.04, 2.5108361355803117)
+
+[sub_resource type="BoxShape3D" id="Wall6_Inner"]
+size = Vector3(0.48, 1.04, 2.4552568519132576)
+
+[sub_resource type="BoxShape3D" id="Wall7_Inner"]
+size = Vector3(0.48, 1.04, 2.3911498059705547)
+
+[sub_resource type="BoxShape3D" id="Wall8_Inner"]
+size = Vector3(0.48, 1.04, 2.318871687836342)
+
+[sub_resource type="BoxShape3D" id="Wall9_Inner"]
+size = Vector3(0.48, 1.04, 2.238853704230511)
+
+[sub_resource type="BoxShape3D" id="Wall10_Inner"]
+size = Vector3(0.48, 1.04, 2.1515965067326497)
+
+[sub_resource type="BoxShape3D" id="Wall11_Inner"]
+size = Vector3(0.48, 1.04, 2.057697705406169)
+
+[sub_resource type="BoxShape3D" id="Wall12_Inner"]
+size = Vector3(0.48, 1.04, 1.957864242013627)
+
+[sub_resource type="BoxShape3D" id="Wall13_Inner"]
+size = Vector3(0.48, 1.04, 1.8529750278989605)
+
+[sub_resource type="BoxShape3D" id="Wall14_Inner"]
+size = Vector3(0.48, 1.04, 1.7440513120414172)
+
+[sub_resource type="BoxShape3D" id="Wall15_Inner"]
+size = Vector3(0.48, 1.04, 1.6323959185366679)
+
+[sub_resource type="BoxShape3D" id="Wall16_Inner"]
+size = Vector3(0.48, 1.04, 1.519571937902134)
+
+[sub_resource type="BoxShape3D" id="Wall17_Inner"]
+size = Vector3(0.48, 1.04, 1.4075234757536832)
+
+[sub_resource type="BoxShape3D" id="Wall18_Inner"]
+size = Vector3(0.48, 1.04, 1.29861101940776)
+
+[sub_resource type="BoxShape3D" id="Wall19_Inner"]
+size = Vector3(0.48, 1.04, 1.1956312136873706)
+
+[sub_resource type="BoxShape3D" id="Wall20_Inner"]
+size = Vector3(0.48, 1.04, 1.1018198804015187)
+
+[sub_resource type="BoxShape3D" id="Wall21_Inner"]
+size = Vector3(0.48, 1.04, 1.020682400459307)
+
+[sub_resource type="BoxShape3D" id="Wall22_Inner"]
+size = Vector3(0.48, 1.04, 0.9557939390751984)
+
+[sub_resource type="BoxShape3D" id="Wall23_Inner"]
+size = Vector3(0.48, 1.04, 0.9104046602961353)
+
+[sub_resource type="BoxShape3D" id="Wall24_Inner"]
+size = Vector3(0.48, 1.04, 0.8870250208826056)
+
+[sub_resource type="BoxShape3D" id="Wall25_Inner"]
+size = Vector3(0.48, 1.04, 0.8870250208826056)
+
+[sub_resource type="BoxShape3D" id="Wall26_Inner"]
+size = Vector3(0.48, 1.04, 0.8870250208826056)
+
+[sub_resource type="BoxShape3D" id="Wall27_Inner"]
+size = Vector3(0.48, 1.04, 0.9104046602961353)
+
+[sub_resource type="BoxShape3D" id="Wall28_Inner"]
+size = Vector3(0.48, 1.04, 0.9557939390751984)
+
+[sub_resource type="BoxShape3D" id="Wall29_Inner"]
+size = Vector3(0.48, 1.04, 1.020682400459307)
+
+[sub_resource type="BoxShape3D" id="Wall30_Inner"]
+size = Vector3(0.48, 1.04, 1.1018198804015187)
+
+[sub_resource type="BoxShape3D" id="Wall31_Inner"]
+size = Vector3(0.48, 1.04, 1.1956312136873706)
+
+[sub_resource type="BoxShape3D" id="Wall32_Inner"]
+size = Vector3(0.48, 1.04, 1.29861101940776)
+
+[sub_resource type="BoxShape3D" id="Wall33_Inner"]
+size = Vector3(0.48, 1.04, 1.4075234757536832)
+
+[sub_resource type="BoxShape3D" id="Wall34_Inner"]
+size = Vector3(0.48, 1.04, 1.519571937902134)
+
+[sub_resource type="BoxShape3D" id="Wall35_Inner"]
+size = Vector3(0.48, 1.04, 1.6323959185366679)
+
+[sub_resource type="BoxShape3D" id="Wall36_Inner"]
+size = Vector3(0.48, 1.04, 1.7440513120414172)
+
+[sub_resource type="BoxShape3D" id="Wall37_Inner"]
+size = Vector3(0.48, 1.04, 1.8529750278989605)
+
+[sub_resource type="BoxShape3D" id="Wall38_Inner"]
+size = Vector3(0.48, 1.04, 1.957864242013627)
+
+[sub_resource type="BoxShape3D" id="Wall39_Inner"]
+size = Vector3(0.48, 1.04, 2.057697705406169)
+
+[sub_resource type="BoxShape3D" id="Wall40_Inner"]
+size = Vector3(0.48, 1.04, 2.1515965067326497)
+
+[sub_resource type="BoxShape3D" id="Wall41_Inner"]
+size = Vector3(0.48, 1.04, 2.238853704230511)
+
+[sub_resource type="BoxShape3D" id="Wall42_Inner"]
+size = Vector3(0.48, 1.04, 2.318871687836342)
+
+[sub_resource type="BoxShape3D" id="Wall43_Inner"]
+size = Vector3(0.48, 1.04, 2.3911498059705547)
+
+[sub_resource type="BoxShape3D" id="Wall44_Inner"]
+size = Vector3(0.48, 1.04, 2.4552568519132576)
+
+[sub_resource type="BoxShape3D" id="Wall45_Inner"]
+size = Vector3(0.48, 1.04, 2.5108361355803117)
+
+[sub_resource type="BoxShape3D" id="Wall46_Inner"]
+size = Vector3(0.48, 1.04, 2.5575924544091553)
+
+[sub_resource type="BoxShape3D" id="Wall47_Inner"]
+size = Vector3(0.48, 1.04, 2.595283075009162)
+
+[sub_resource type="BoxShape3D" id="Wall48_Inner"]
+size = Vector3(0.48, 1.04, 2.623715461848655)
+
+[sub_resource type="BoxShape3D" id="Wall49_Inner"]
+size = Vector3(0.48, 1.04, 2.642748530360897)
+
+[sub_resource type="BoxShape3D" id="Wall50_Inner"]
+size = Vector3(0.48, 1.04, 2.6522880764245875)
+
+[sub_resource type="BoxShape3D" id="Wall51_Inner"]
+size = Vector3(0.48, 1.04, 2.642748530360897)
+
+[sub_resource type="BoxShape3D" id="Wall52_Inner"]
+size = Vector3(0.48, 1.04, 2.623715461848655)
+
+[sub_resource type="BoxShape3D" id="Wall53_Inner"]
+size = Vector3(0.48, 1.04, 2.595283075009162)
+
+[sub_resource type="BoxShape3D" id="Wall54_Inner"]
+size = Vector3(0.48, 1.04, 2.5575924544091553)
+
+[sub_resource type="BoxShape3D" id="Wall55_Inner"]
+size = Vector3(0.48, 1.04, 2.5108361355803117)
+
+[sub_resource type="BoxShape3D" id="Wall56_Inner"]
+size = Vector3(0.48, 1.04, 2.4552568519132576)
+
+[sub_resource type="BoxShape3D" id="Wall57_Inner"]
+size = Vector3(0.48, 1.04, 2.3911498059705547)
+
+[sub_resource type="BoxShape3D" id="Wall58_Inner"]
+size = Vector3(0.48, 1.04, 2.318871687836342)
+
+[sub_resource type="BoxShape3D" id="Wall59_Inner"]
+size = Vector3(0.48, 1.04, 2.238853704230511)
+
+[sub_resource type="BoxShape3D" id="Wall60_Inner"]
+size = Vector3(0.48, 1.04, 2.1515965067326497)
+
+[sub_resource type="BoxShape3D" id="Wall61_Inner"]
+size = Vector3(0.48, 1.04, 2.057697705406169)
+
+[sub_resource type="BoxShape3D" id="Wall62_Inner"]
+size = Vector3(0.48, 1.04, 1.957864242013627)
+
+[sub_resource type="BoxShape3D" id="Wall63_Inner"]
+size = Vector3(0.48, 1.04, 1.8529750278989605)
+
+[sub_resource type="BoxShape3D" id="Wall64_Inner"]
+size = Vector3(0.48, 1.04, 1.7440513120414172)
+
+[sub_resource type="BoxShape3D" id="Wall65_Inner"]
+size = Vector3(0.48, 1.04, 1.6323959185366679)
+
+[sub_resource type="BoxShape3D" id="Wall66_Inner"]
+size = Vector3(0.48, 1.04, 1.519571937902134)
+
+[sub_resource type="BoxShape3D" id="Wall67_Inner"]
+size = Vector3(0.48, 1.04, 1.4075234757536832)
+
+[sub_resource type="BoxShape3D" id="Wall68_Inner"]
+size = Vector3(0.48, 1.04, 1.29861101940776)
+
+[sub_resource type="BoxShape3D" id="Wall69_Inner"]
+size = Vector3(0.48, 1.04, 1.1956312136873706)
+
+[sub_resource type="BoxShape3D" id="Wall70_Inner"]
+size = Vector3(0.48, 1.04, 1.1018198804015187)
+
+[sub_resource type="BoxShape3D" id="Wall71_Inner"]
+size = Vector3(0.48, 1.04, 1.020682400459307)
+
+[sub_resource type="BoxShape3D" id="Wall72_Inner"]
+size = Vector3(0.48, 1.04, 0.9557939390751984)
+
+[sub_resource type="BoxShape3D" id="Wall73_Inner"]
+size = Vector3(0.48, 1.04, 0.9104046602961353)
+
+[sub_resource type="BoxShape3D" id="Wall74_Inner"]
+size = Vector3(0.48, 1.04, 0.8870250208826056)
+
+[sub_resource type="BoxShape3D" id="Wall75_Inner"]
+size = Vector3(0.48, 1.04, 0.8870250208826056)
+
+[sub_resource type="BoxShape3D" id="Wall76_Inner"]
+size = Vector3(0.48, 1.04, 0.8870250208826056)
+
+[sub_resource type="BoxShape3D" id="Wall77_Inner"]
+size = Vector3(0.48, 1.04, 0.9104046602961353)
+
+[sub_resource type="BoxShape3D" id="Wall78_Inner"]
+size = Vector3(0.48, 1.04, 0.9557939390751984)
+
+[sub_resource type="BoxShape3D" id="Wall79_Inner"]
+size = Vector3(0.48, 1.04, 1.020682400459307)
+
+[sub_resource type="BoxShape3D" id="Wall80_Inner"]
+size = Vector3(0.48, 1.04, 1.1018198804015187)
+
+[sub_resource type="BoxShape3D" id="Wall81_Inner"]
+size = Vector3(0.48, 1.04, 1.1956312136873706)
+
+[sub_resource type="BoxShape3D" id="Wall82_Inner"]
+size = Vector3(0.48, 1.04, 1.29861101940776)
+
+[sub_resource type="BoxShape3D" id="Wall83_Inner"]
+size = Vector3(0.48, 1.04, 1.4075234757536832)
+
+[sub_resource type="BoxShape3D" id="Wall84_Inner"]
+size = Vector3(0.48, 1.04, 1.519571937902134)
+
+[sub_resource type="BoxShape3D" id="Wall85_Inner"]
+size = Vector3(0.48, 1.04, 1.6323959185366679)
+
+[sub_resource type="BoxShape3D" id="Wall86_Inner"]
+size = Vector3(0.48, 1.04, 1.7440513120414172)
+
+[sub_resource type="BoxShape3D" id="Wall87_Inner"]
+size = Vector3(0.48, 1.04, 1.8529750278989605)
+
+[sub_resource type="BoxShape3D" id="Wall88_Inner"]
+size = Vector3(0.48, 1.04, 1.957864242013627)
+
+[sub_resource type="BoxShape3D" id="Wall89_Inner"]
+size = Vector3(0.48, 1.04, 2.057697705406169)
+
+[sub_resource type="BoxShape3D" id="Wall90_Inner"]
+size = Vector3(0.48, 1.04, 2.1515965067326497)
+
+[sub_resource type="BoxShape3D" id="Wall91_Inner"]
+size = Vector3(0.48, 1.04, 2.238853704230511)
+
+[sub_resource type="BoxShape3D" id="Wall92_Inner"]
+size = Vector3(0.48, 1.04, 2.318871687836342)
+
+[sub_resource type="BoxShape3D" id="Wall93_Inner"]
+size = Vector3(0.48, 1.04, 2.3911498059705547)
+
+[sub_resource type="BoxShape3D" id="Wall94_Inner"]
+size = Vector3(0.48, 1.04, 2.4552568519132576)
+
+[sub_resource type="BoxShape3D" id="Wall95_Inner"]
+size = Vector3(0.48, 1.04, 2.5108361355803117)
+
+[sub_resource type="BoxShape3D" id="Wall96_Inner"]
+size = Vector3(0.48, 1.04, 2.5575924544091553)
+
+[sub_resource type="BoxShape3D" id="Wall97_Inner"]
+size = Vector3(0.48, 1.04, 2.595283075009162)
+
+[sub_resource type="BoxShape3D" id="Wall98_Inner"]
+size = Vector3(0.48, 1.04, 2.623715461848655)
+
+[sub_resource type="BoxShape3D" id="Wall99_Inner"]
+size = Vector3(0.48, 1.04, 2.642748530360897)
+
+[sub_resource type="BoxShape3D" id="Wall0_Outer"]
+size = Vector3(0.48, 1.04, 3.2791467476421614)
+
+[sub_resource type="BoxShape3D" id="Wall1_Outer"]
+size = Vector3(0.48, 1.04, 3.272689938464598)
+
+[sub_resource type="BoxShape3D" id="Wall2_Outer"]
+size = Vector3(0.48, 1.04, 3.259864567863762)
+
+[sub_resource type="BoxShape3D" id="Wall3_Outer"]
+size = Vector3(0.48, 1.04, 3.240846960024396)
+
+[sub_resource type="BoxShape3D" id="Wall4_Outer"]
+size = Vector3(0.48, 1.04, 3.215910637166092)
+
+[sub_resource type="BoxShape3D" id="Wall5_Outer"]
+size = Vector3(0.48, 1.04, 3.1854110067123607)
+
+[sub_resource type="BoxShape3D" id="Wall6_Outer"]
+size = Vector3(0.48, 1.04, 3.1498045651739757)
+
+[sub_resource type="BoxShape3D" id="Wall7_Outer"]
+size = Vector3(0.48, 1.04, 3.109644176930589)
+
+[sub_resource type="BoxShape3D" id="Wall8_Outer"]
+size = Vector3(0.48, 1.04, 3.0655781805523996)
+
+[sub_resource type="BoxShape3D" id="Wall9_Outer"]
+size = Vector3(0.48, 1.04, 3.0183553155668776)
+
+[sub_resource type="BoxShape3D" id="Wall10_Outer"]
+size = Vector3(0.48, 1.04, 2.968818402714306)
+
+[sub_resource type="BoxShape3D" id="Wall11_Outer"]
+size = Vector3(0.48, 1.04, 2.917912991034413)
+
+[sub_resource type="BoxShape3D" id="Wall12_Outer"]
+size = Vector3(0.48, 1.04, 2.8666527965308823)
+
+[sub_resource type="BoxShape3D" id="Wall13_Outer"]
+size = Vector3(0.48, 1.04, 2.81613029583647)
+
+[sub_resource type="BoxShape3D" id="Wall14_Outer"]
+size = Vector3(0.48, 1.04, 2.7674735574740676)
+
+[sub_resource type="BoxShape3D" id="Wall15_Outer"]
+size = Vector3(0.48, 1.04, 2.7217914684155273)
+
+[sub_resource type="BoxShape3D" id="Wall16_Outer"]
+size = Vector3(0.48, 1.04, 2.6801345177826437)
+
+[sub_resource type="BoxShape3D" id="Wall17_Outer"]
+size = Vector3(0.48, 1.04, 2.6434092314306663)
+
+[sub_resource type="BoxShape3D" id="Wall18_Outer"]
+size = Vector3(0.48, 1.04, 2.612271557800421)
+
+[sub_resource type="BoxShape3D" id="Wall19_Outer"]
+size = Vector3(0.48, 1.04, 2.587073830535558)
+
+[sub_resource type="BoxShape3D" id="Wall20_Outer"]
+size = Vector3(0.48, 1.04, 2.567762869082975)
+
+[sub_resource type="BoxShape3D" id="Wall21_Outer"]
+size = Vector3(0.48, 1.04, 2.5538916703631576)
+
+[sub_resource type="BoxShape3D" id="Wall22_Outer"]
+size = Vector3(0.48, 1.04, 2.5447004867704828)
+
+[sub_resource type="BoxShape3D" id="Wall23_Outer"]
+size = Vector3(0.48, 1.04, 2.539275801796417)
+
+[sub_resource type="BoxShape3D" id="Wall24_Outer"]
+size = Vector3(0.48, 1.04, 2.536805022765531)
+
+[sub_resource type="BoxShape3D" id="Wall25_Outer"]
+size = Vector3(0.48, 1.04, 2.536805022765531)
+
+[sub_resource type="BoxShape3D" id="Wall26_Outer"]
+size = Vector3(0.48, 1.04, 2.536805022765531)
+
+[sub_resource type="BoxShape3D" id="Wall27_Outer"]
+size = Vector3(0.48, 1.04, 2.539275801796417)
+
+[sub_resource type="BoxShape3D" id="Wall28_Outer"]
+size = Vector3(0.48, 1.04, 2.5447004867704828)
+
+[sub_resource type="BoxShape3D" id="Wall29_Outer"]
+size = Vector3(0.48, 1.04, 2.5538916703631576)
+
+[sub_resource type="BoxShape3D" id="Wall30_Outer"]
+size = Vector3(0.48, 1.04, 2.567762869082975)
+
+[sub_resource type="BoxShape3D" id="Wall31_Outer"]
+size = Vector3(0.48, 1.04, 2.587073830535558)
+
+[sub_resource type="BoxShape3D" id="Wall32_Outer"]
+size = Vector3(0.48, 1.04, 2.612271557800421)
+
+[sub_resource type="BoxShape3D" id="Wall33_Outer"]
+size = Vector3(0.48, 1.04, 2.6434092314306663)
+
+[sub_resource type="BoxShape3D" id="Wall34_Outer"]
+size = Vector3(0.48, 1.04, 2.6801345177826437)
+
+[sub_resource type="BoxShape3D" id="Wall35_Outer"]
+size = Vector3(0.48, 1.04, 2.7217914684155273)
+
+[sub_resource type="BoxShape3D" id="Wall36_Outer"]
+size = Vector3(0.48, 1.04, 2.7674735574740676)
+
+[sub_resource type="BoxShape3D" id="Wall37_Outer"]
+size = Vector3(0.48, 1.04, 2.81613029583647)
+
+[sub_resource type="BoxShape3D" id="Wall38_Outer"]
+size = Vector3(0.48, 1.04, 2.8666527965308823)
+
+[sub_resource type="BoxShape3D" id="Wall39_Outer"]
+size = Vector3(0.48, 1.04, 2.917912991034413)
+
+[sub_resource type="BoxShape3D" id="Wall40_Outer"]
+size = Vector3(0.48, 1.04, 2.968818402714306)
+
+[sub_resource type="BoxShape3D" id="Wall41_Outer"]
+size = Vector3(0.48, 1.04, 3.0183553155668776)
+
+[sub_resource type="BoxShape3D" id="Wall42_Outer"]
+size = Vector3(0.48, 1.04, 3.0655781805523996)
+
+[sub_resource type="BoxShape3D" id="Wall43_Outer"]
+size = Vector3(0.48, 1.04, 3.109644176930589)
+
+[sub_resource type="BoxShape3D" id="Wall44_Outer"]
+size = Vector3(0.48, 1.04, 3.1498045651739757)
+
+[sub_resource type="BoxShape3D" id="Wall45_Outer"]
+size = Vector3(0.48, 1.04, 3.1854110067123607)
+
+[sub_resource type="BoxShape3D" id="Wall46_Outer"]
+size = Vector3(0.48, 1.04, 3.215910637166092)
+
+[sub_resource type="BoxShape3D" id="Wall47_Outer"]
+size = Vector3(0.48, 1.04, 3.240846960024396)
+
+[sub_resource type="BoxShape3D" id="Wall48_Outer"]
+size = Vector3(0.48, 1.04, 3.259864567863762)
+
+[sub_resource type="BoxShape3D" id="Wall49_Outer"]
+size = Vector3(0.48, 1.04, 3.272689938464598)
+
+[sub_resource type="BoxShape3D" id="Wall50_Outer"]
+size = Vector3(0.48, 1.04, 3.2791467476421614)
+
+[sub_resource type="BoxShape3D" id="Wall51_Outer"]
+size = Vector3(0.48, 1.04, 3.272689938464598)
+
+[sub_resource type="BoxShape3D" id="Wall52_Outer"]
+size = Vector3(0.48, 1.04, 3.259864567863762)
+
+[sub_resource type="BoxShape3D" id="Wall53_Outer"]
+size = Vector3(0.48, 1.04, 3.240846960024396)
+
+[sub_resource type="BoxShape3D" id="Wall54_Outer"]
+size = Vector3(0.48, 1.04, 3.215910637166092)
+
+[sub_resource type="BoxShape3D" id="Wall55_Outer"]
+size = Vector3(0.48, 1.04, 3.1854110067123607)
+
+[sub_resource type="BoxShape3D" id="Wall56_Outer"]
+size = Vector3(0.48, 1.04, 3.1498045651739757)
+
+[sub_resource type="BoxShape3D" id="Wall57_Outer"]
+size = Vector3(0.48, 1.04, 3.109644176930589)
+
+[sub_resource type="BoxShape3D" id="Wall58_Outer"]
+size = Vector3(0.48, 1.04, 3.0655781805523996)
+
+[sub_resource type="BoxShape3D" id="Wall59_Outer"]
+size = Vector3(0.48, 1.04, 3.0183553155668776)
+
+[sub_resource type="BoxShape3D" id="Wall60_Outer"]
+size = Vector3(0.48, 1.04, 2.968818402714306)
+
+[sub_resource type="BoxShape3D" id="Wall61_Outer"]
+size = Vector3(0.48, 1.04, 2.917912991034413)
+
+[sub_resource type="BoxShape3D" id="Wall62_Outer"]
+size = Vector3(0.48, 1.04, 2.8666527965308823)
+
+[sub_resource type="BoxShape3D" id="Wall63_Outer"]
+size = Vector3(0.48, 1.04, 2.81613029583647)
+
+[sub_resource type="BoxShape3D" id="Wall64_Outer"]
+size = Vector3(0.48, 1.04, 2.7674735574740676)
+
+[sub_resource type="BoxShape3D" id="Wall65_Outer"]
+size = Vector3(0.48, 1.04, 2.7217914684155273)
+
+[sub_resource type="BoxShape3D" id="Wall66_Outer"]
+size = Vector3(0.48, 1.04, 2.6801345177826437)
+
+[sub_resource type="BoxShape3D" id="Wall67_Outer"]
+size = Vector3(0.48, 1.04, 2.6434092314306663)
+
+[sub_resource type="BoxShape3D" id="Wall68_Outer"]
+size = Vector3(0.48, 1.04, 2.612271557800421)
+
+[sub_resource type="BoxShape3D" id="Wall69_Outer"]
+size = Vector3(0.48, 1.04, 2.587073830535558)
+
+[sub_resource type="BoxShape3D" id="Wall70_Outer"]
+size = Vector3(0.48, 1.04, 2.567762869082975)
+
+[sub_resource type="BoxShape3D" id="Wall71_Outer"]
+size = Vector3(0.48, 1.04, 2.5538916703631576)
+
+[sub_resource type="BoxShape3D" id="Wall72_Outer"]
+size = Vector3(0.48, 1.04, 2.5447004867704828)
+
+[sub_resource type="BoxShape3D" id="Wall73_Outer"]
+size = Vector3(0.48, 1.04, 2.539275801796417)
+
+[sub_resource type="BoxShape3D" id="Wall74_Outer"]
+size = Vector3(0.48, 1.04, 2.536805022765531)
+
+[sub_resource type="BoxShape3D" id="Wall75_Outer"]
+size = Vector3(0.48, 1.04, 2.536805022765531)
+
+[sub_resource type="BoxShape3D" id="Wall76_Outer"]
+size = Vector3(0.48, 1.04, 2.536805022765531)
+
+[sub_resource type="BoxShape3D" id="Wall77_Outer"]
+size = Vector3(0.48, 1.04, 2.539275801796417)
+
+[sub_resource type="BoxShape3D" id="Wall78_Outer"]
+size = Vector3(0.48, 1.04, 2.5447004867704828)
+
+[sub_resource type="BoxShape3D" id="Wall79_Outer"]
+size = Vector3(0.48, 1.04, 2.5538916703631576)
+
+[sub_resource type="BoxShape3D" id="Wall80_Outer"]
+size = Vector3(0.48, 1.04, 2.567762869082975)
+
+[sub_resource type="BoxShape3D" id="Wall81_Outer"]
+size = Vector3(0.48, 1.04, 2.587073830535558)
+
+[sub_resource type="BoxShape3D" id="Wall82_Outer"]
+size = Vector3(0.48, 1.04, 2.612271557800421)
+
+[sub_resource type="BoxShape3D" id="Wall83_Outer"]
+size = Vector3(0.48, 1.04, 2.6434092314306663)
+
+[sub_resource type="BoxShape3D" id="Wall84_Outer"]
+size = Vector3(0.48, 1.04, 2.6801345177826437)
+
+[sub_resource type="BoxShape3D" id="Wall85_Outer"]
+size = Vector3(0.48, 1.04, 2.7217914684155273)
+
+[sub_resource type="BoxShape3D" id="Wall86_Outer"]
+size = Vector3(0.48, 1.04, 2.7674735574740676)
+
+[sub_resource type="BoxShape3D" id="Wall87_Outer"]
+size = Vector3(0.48, 1.04, 2.81613029583647)
+
+[sub_resource type="BoxShape3D" id="Wall88_Outer"]
+size = Vector3(0.48, 1.04, 2.8666527965308823)
+
+[sub_resource type="BoxShape3D" id="Wall89_Outer"]
+size = Vector3(0.48, 1.04, 2.917912991034413)
+
+[sub_resource type="BoxShape3D" id="Wall90_Outer"]
+size = Vector3(0.48, 1.04, 2.968818402714306)
+
+[sub_resource type="BoxShape3D" id="Wall91_Outer"]
+size = Vector3(0.48, 1.04, 3.0183553155668776)
+
+[sub_resource type="BoxShape3D" id="Wall92_Outer"]
+size = Vector3(0.48, 1.04, 3.0655781805523996)
+
+[sub_resource type="BoxShape3D" id="Wall93_Outer"]
+size = Vector3(0.48, 1.04, 3.109644176930589)
+
+[sub_resource type="BoxShape3D" id="Wall94_Outer"]
+size = Vector3(0.48, 1.04, 3.1498045651739757)
+
+[sub_resource type="BoxShape3D" id="Wall95_Outer"]
+size = Vector3(0.48, 1.04, 3.1854110067123607)
+
+[sub_resource type="BoxShape3D" id="Wall96_Outer"]
+size = Vector3(0.48, 1.04, 3.215910637166092)
+
+[sub_resource type="BoxShape3D" id="Wall97_Outer"]
+size = Vector3(0.48, 1.04, 3.240846960024396)
+
+[sub_resource type="BoxShape3D" id="Wall98_Outer"]
+size = Vector3(0.48, 1.04, 3.259864567863762)
+
+[sub_resource type="BoxShape3D" id="Wall99_Outer"]
+size = Vector3(0.48, 1.04, 3.272689938464598)
+
+[node name="Course" type="Node3D"]
+process_mode = 1
+script = ExtResource("1")
+
+[node name="Model" parent="." instance=ExtResource("2")]
+
+[node name="Ground" type="StaticBody3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+position = Vector3(0, -0.5, 0)
+shape = SubResource("GroundShape")
+
+[node name="Walls" type="StaticBody3D" parent="."]
+
+[node name="Wall0_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(23.9, 0.52, 0.0)
+rotation = Vector3(0, 3.141592653589793, 0)
+shape = SubResource("Wall0_Inner")
+
+[node name="Wall0_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(40.1, 0.52, 0.0)
+rotation = Vector3(0, 3.141592653589793, 0)
+shape = SubResource("Wall0_Outer")
+
+[node name="Wall1_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(23.842919379417392, 0.52, 2.951736378092674)
+rotation = Vector3(0, 3.1028952631501903, 0)
+shape = SubResource("Wall1_Inner")
+
+[node name="Wall1_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(40.030791239991984, 0.52, 3.5784776529559172)
+rotation = Vector3(0, 3.1028952631501903, 0)
+shape = SubResource("Wall1_Outer")
+
+[node name="Wall2_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(23.67203698339477, 0.52, 5.8895190651024745)
+rotation = Vector3(0, 3.064007546559155, 0)
+shape = SubResource("Wall2_Inner")
+
+[node name="Wall2_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(39.823303900731815, 0.52, 7.145137225585168)
+rotation = Vector3(0, 3.064007546559155, 0)
+shape = SubResource("Wall2_Outer")
+
+[node name="Wall3_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(23.388433249429035, 0.52, 8.799446936607431)
+rotation = Vector3(0, 3.0247365845438994, 0)
+shape = SubResource("Wall3_Inner")
+
+[node name="Wall3_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(39.47795079720704, 0.52, 10.688209780307929)
+rotation = Vector3(0, 3.0247365845438994, 0)
+shape = SubResource("Wall3_Outer")
+
+[node name="Wall4_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(22.99391574843829, 0.52, 11.667725042662184)
+rotation = Vector3(0, 2.9848842568317755, 0)
+shape = SubResource("Wall4_Inner")
+
+[node name="Wall4_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(38.9954065637941, 0.52, 14.196023222482715)
+rotation = Vector3(0, 2.9848842568317755, 0)
+shape = SubResource("Wall4_Outer")
+
+[node name="Wall5_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(22.4910295738751, 0.52, 14.480720431872951)
+rotation = Vector3(0, 2.9442446112134033, 0)
+shape = SubResource("Wall5_Inner")
+
+[node name="Wall5_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(38.37658746901473, 0.52, 17.657046983121575)
+rotation = Vector3(0, 2.9442446112134033, 0)
+shape = SubResource("Wall5_Outer")
+
+[node name="Wall6_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(21.88307207810154, 0.52, 17.22502164320329)
+rotation = Vector3(0, 2.902601215301599, 0)
+shape = SubResource("Wall6_Inner")
+
+[node name="Wall6_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(37.62262301874655, 0.52, 21.059931836003216)
+rotation = Vector3(0, 2.902601215301599, 0)
+shape = SubResource("Wall6_Outer")
+
+[node name="Wall7_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(21.174111989186223, 0.52, 19.887503751178738)
+rotation = Vector3(0, 2.8597245207976636, 0)
+shape = SubResource("Wall7_Inner")
+
+[node name="Wall7_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(36.73481936863903, 0.52, 24.39354257158882)
+rotation = Vector3(0, 2.8597245207976636, 0)
+shape = SubResource("Wall7_Outer")
+
+[node name="Wall8_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(20.369012682913926, 0.52, 22.455401460520324)
+rotation = Vector3(0, 2.815369308011494, 0)
+shape = SubResource("Wall8_Inner")
+
+[node name="Wall8_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(35.71461483989334, 0.52, 27.646980646058072)
+rotation = Vector3(0, 2.815369308011494, 0)
+shape = SubResource("Wall8_Outer")
+
+[node name="Wall9_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(19.473458847679183, 0.52, 24.91639354527161)
+rotation = Vector3(0, 2.7692723358035662, 0)
+shape = SubResource("Wall9_Inner")
+
+[node name="Wall9_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(34.56352838444978, 0.52, 30.809593132544045)
+rotation = Vector3(0, 2.7692723358035662, 0)
+shape = SubResource("Wall9_Outer")
+
+[node name="Wall10_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(18.493984806597904, 0.52, 27.258702904389672)
+rotation = Vector3(0, 2.7211504065502363, 0)
+shape = SubResource("Wall10_Inner")
+
+[node name="Wall10_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(33.28310283339873, 0.52, 33.870963334027536)
+rotation = Vector3(0, 2.7211504065502363, 0)
+shape = SubResource("Wall10_Outer")
+
+[node name="Wall11_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(17.438001129263135, 0.52, 29.471217593773506)
+rotation = Vector3(0, 2.67069917644704, 0)
+shape = SubResource("Wall11_Inner")
+
+[node name="Wall11_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(31.874846408387377, 0.52, 36.82087734009022)
+rotation = Vector3(0, 2.67069917644704, 0)
+shape = SubResource("Wall11_Outer")
+
+[node name="Wall12_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(16.313813581743876, 0.52, 31.54363921401107)
+rotation = Vector3(0, 2.61759320838873, 0)
+shape = SubResource("Wall12_Inner")
+
+[node name="Wall12_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(30.340178573226463, 0.52, 39.64925980257254)
+rotation = Vector3(0, 2.61759320838873, 0)
+shape = SubResource("Wall12_Outer")
+
+[node name="Wall13_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(15.13062458398262, 0.52, 33.46666559884609)
+rotation = Vector3(0, 2.5614879853976884, 0)
+shape = SubResource("Wall13_Inner")
+
+[node name="Wall13_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(28.68039019545345, 0.52, 42.34607165298071)
+rotation = Vector3(0, 2.5614879853976884, 0)
+shape = SubResource("Wall13_Outer")
+
+[node name="Wall14_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(13.898501858778666, 0.52, 35.23221413832266)
+rotation = Vector3(0, 2.5020248758143273, 0)
+shape = SubResource("Wall14_Inner")
+
+[node name="Wall14_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(26.896633485137478, 0.52, 44.90116311035942)
+rotation = Vector3(0, 2.5020248758143273, 0)
+shape = SubResource("Wall14_Outer")
+
+[node name="Wall15_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(12.62829180101145, 0.52, 36.83368906217308)
+rotation = Vector3(0, 2.4388403445811906, 0)
+shape = SubResource("Wall15_Inner")
+
+[node name="Wall15_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(24.989964345706838, 0.52, 47.30407835282145)
+rotation = Vector3(0, 2.4388403445811906, 0)
+shape = SubResource("Wall15_Outer")
+
+[node name="Wall16_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(11.331446876808965, 0.52, 38.26628877251445)
+rotation = Vector3(0, 2.371580973417697, 0)
+shape = SubResource("Wall16_Inner")
+
+[node name="Wall16_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(22.961468001846814, 0.52, 49.54381547969512)
+rotation = Vector3(0, 2.371580973417697, 0)
+shape = SubResource("Wall16_Outer")
+
+[node name="Wall17_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(10.019729081677568, 0.52, 39.52733553320619)
+rotation = Vector3(0, 2.2999259516093793, 0)
+shape = SubResource("Wall17_Inner")
+
+[node name="Wall17_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(20.812506060832202, 0.52, 51.60855919135563)
+rotation = Vector3(0, 2.2999259516093793, 0)
+shape = SubResource("Wall17_Outer")
+
+[node name="Wall18_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(8.704749503007712, 0.52, 40.61658742682697)
+rotation = Vector3(0, 2.22361839534765, 0)
+shape = SubResource("Wall18_Inner")
+
+[node name="Wall18_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(18.54512515715694, 0.52, 53.48542602963907)
+rotation = Vector3(0, 2.22361839534765, 0)
+shape = SubResource("Wall18_Outer")
+
+[node name="Wall19_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(7.397314807590201, 0.52, 41.536461531806395)
+rotation = Vector3(0, 2.1425058143836124, 0)
+shape = SubResource("Wall19_Inner")
+
+[node name="Wall19_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(16.162656564229195, 0.52, 55.16029300057174)
+rotation = Vector3(0, 2.1425058143836124, 0)
+shape = SubResource("Wall19_Outer")
+
+[node name="Wall20_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(6.106584867352453, 0.52, 42.29206327391368)
+rotation = Vector3(0, 2.056587916252474, 0)
+shape = SubResource("Wall20_Inner")
+
+[node name="Wall20_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(13.670502772644184, 0.52, 56.61781442078228)
+rotation = Vector3(0, 2.056587916252474, 0)
+shape = SubResource("Wall20_Outer")
+
+[node name="Wall21_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(4.839109749662249, 0.52, 42.89089481905945)
+rotation = Vector3(0, 1.9660665716526893, 0)
+shape = SubResource("Wall21_Inner")
+
+[node name="Wall21_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(11.077043028888454, 0.52, 57.841753938318185)
+rotation = Vector3(0, 1.9660665716526893, 0)
+shape = SubResource("Wall21_Outer")
+
+[node name="Wall22_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(3.597905578768182, 0.52, 43.3421305936432)
+rotation = Vector3(0, 1.8713886116938696, 0)
+shape = SubResource("Wall22_Inner")
+
+[node name="Wall22_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(8.3944985547182, 0.52, 58.81574348214041)
+rotation = Vector3(0, 1.8713886116938696, 0)
+shape = SubResource("Wall22_Outer")
+
+[node name="Wall23_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(2.3818202412895633, 0.52, 43.6554279523952)
+rotation = Vector3(0, 1.7732686445214965, 0)
+shape = SubResource("Wall23_Inner")
+
+[node name="Wall23_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(5.639506706825923, 0.52, 59.52450098431049)
+rotation = Vector3(0, 1.7732686445214965, 0)
+shape = SubResource("Wall23_Outer")
+
+[node name="Wall24_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(1.1854765196245127, 0.52, 43.83939258154178)
+rotation = Vector3(0, 1.6726786778772966, 0)
+shape = SubResource("Wall24_Inner")
+
+[node name="Wall24_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(2.833116730251553, 0.52, 59.95538717499846)
+rotation = Vector3(0, 1.6726786778772966, 0)
+shape = SubResource("Wall24_Outer")
+
+[node name="Wall25_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(1.1534642039469133e-15, 0.52, 43.9)
+rotation = Vector3(0, 1.5707963267948968, 0)
+shape = SubResource("Wall25_Inner")
+
+[node name="Wall25_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(2.765405553324617e-15, 0.52, 60.1)
+rotation = Vector3(0, 1.5707963267948968, 0)
+shape = SubResource("Wall25_Outer")
+
+[node name="Wall26_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-1.1854765196245105, 0.52, 43.83939258154178)
+rotation = Vector3(0, 1.4689139757124967, 0)
+shape = SubResource("Wall26_Inner")
+
+[node name="Wall26_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-2.833116730251547, 0.52, 59.95538717499846)
+rotation = Vector3(0, 1.4689139757124967, 0)
+shape = SubResource("Wall26_Outer")
+
+[node name="Wall27_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-2.381820241289557, 0.52, 43.6554279523952)
+rotation = Vector3(0, 1.368324009068297, 0)
+shape = SubResource("Wall27_Inner")
+
+[node name="Wall27_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-5.639506706825909, 0.52, 59.52450098431049)
+rotation = Vector3(0, 1.368324009068297, 0)
+shape = SubResource("Wall27_Outer")
+
+[node name="Wall28_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-3.5979055787681795, 0.52, 43.342130593643205)
+rotation = Vector3(0, 1.270204041895924, 0)
+shape = SubResource("Wall28_Inner")
+
+[node name="Wall28_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-8.394498554718195, 0.52, 58.81574348214042)
+rotation = Vector3(0, 1.270204041895924, 0)
+shape = SubResource("Wall28_Outer")
+
+[node name="Wall29_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-4.839109749662252, 0.52, 42.89089481905945)
+rotation = Vector3(0, 1.1755260819371038, 0)
+shape = SubResource("Wall29_Inner")
+
+[node name="Wall29_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-11.077043028888458, 0.52, 57.841753938318185)
+rotation = Vector3(0, 1.1755260819371038, 0)
+shape = SubResource("Wall29_Outer")
+
+[node name="Wall30_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-6.1065848673524465, 0.52, 42.29206327391368)
+rotation = Vector3(0, 1.08500473733732, 0)
+shape = SubResource("Wall30_Inner")
+
+[node name="Wall30_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-13.67050277264417, 0.52, 56.617814420782295)
+rotation = Vector3(0, 1.08500473733732, 0)
+shape = SubResource("Wall30_Outer")
+
+[node name="Wall31_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-7.3973148075901936, 0.52, 41.5364615318064)
+rotation = Vector3(0, 0.9990868392061812, 0)
+shape = SubResource("Wall31_Inner")
+
+[node name="Wall31_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-16.16265656422918, 0.52, 55.16029300057175)
+rotation = Vector3(0, 0.9990868392061812, 0)
+shape = SubResource("Wall31_Outer")
+
+[node name="Wall32_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-8.704749503007712, 0.52, 40.61658742682696)
+rotation = Vector3(0, 0.9179742582421433, 0)
+shape = SubResource("Wall32_Inner")
+
+[node name="Wall32_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-18.545125157156942, 0.52, 53.485426029639065)
+rotation = Vector3(0, 0.9179742582421433, 0)
+shape = SubResource("Wall32_Outer")
+
+[node name="Wall33_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-10.019729081677573, 0.52, 39.527335533206184)
+rotation = Vector3(0, 0.8416667019804137, 0)
+shape = SubResource("Wall33_Inner")
+
+[node name="Wall33_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-20.812506060832213, 0.52, 51.608559191355624)
+rotation = Vector3(0, 0.8416667019804137, 0)
+shape = SubResource("Wall33_Outer")
+
+[node name="Wall34_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-11.331446876808975, 0.52, 38.26628877251444)
+rotation = Vector3(0, 0.7700116801720958, 0)
+shape = SubResource("Wall34_Inner")
+
+[node name="Wall34_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-22.961468001846825, 0.52, 49.54381547969511)
+rotation = Vector3(0, 0.7700116801720958, 0)
+shape = SubResource("Wall34_Outer")
+
+[node name="Wall35_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-12.628291801011443, 0.52, 36.83368906217307)
+rotation = Vector3(0, 0.7027523090086029, 0)
+shape = SubResource("Wall35_Inner")
+
+[node name="Wall35_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-24.98996434570683, 0.52, 47.304078352821456)
+rotation = Vector3(0, 0.7027523090086029, 0)
+shape = SubResource("Wall35_Outer")
+
+[node name="Wall36_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-13.898501858778666, 0.52, 35.23221413832266)
+rotation = Vector3(0, 0.639567777775466, 0)
+shape = SubResource("Wall36_Inner")
+
+[node name="Wall36_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-26.896633485137478, 0.52, 44.90116311035942)
+rotation = Vector3(0, 0.639567777775466, 0)
+shape = SubResource("Wall36_Outer")
+
+[node name="Wall37_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-15.130624583982623, 0.52, 33.466665598846085)
+rotation = Vector3(0, 0.5801046681921048, 0)
+shape = SubResource("Wall37_Inner")
+
+[node name="Wall37_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-28.680390195453455, 0.52, 42.346071652980704)
+rotation = Vector3(0, 0.5801046681921048, 0)
+shape = SubResource("Wall37_Outer")
+
+[node name="Wall38_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-16.31381358174387, 0.52, 31.543639214011083)
+rotation = Vector3(0, 0.5239994452010635, 0)
+shape = SubResource("Wall38_Inner")
+
+[node name="Wall38_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-30.340178573226456, 0.52, 39.64925980257256)
+rotation = Vector3(0, 0.5239994452010635, 0)
+shape = SubResource("Wall38_Outer")
+
+[node name="Wall39_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-17.438001129263135, 0.52, 29.47121759377352)
+rotation = Vector3(0, 0.47089347714275354, 0)
+shape = SubResource("Wall39_Inner")
+
+[node name="Wall39_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-31.87484640838737, 0.52, 36.820877340090234)
+rotation = Vector3(0, 0.47089347714275354, 0)
+shape = SubResource("Wall39_Outer")
+
+[node name="Wall40_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-18.4939848065979, 0.52, 27.258702904389676)
+rotation = Vector3(0, 0.42044224703955696, 0)
+shape = SubResource("Wall40_Inner")
+
+[node name="Wall40_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-33.28310283339873, 0.52, 33.87096333402754)
+rotation = Vector3(0, 0.42044224703955696, 0)
+shape = SubResource("Wall40_Outer")
+
+[node name="Wall41_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-19.473458847679176, 0.52, 24.916393545271625)
+rotation = Vector3(0, 0.3723203177862271, 0)
+shape = SubResource("Wall41_Inner")
+
+[node name="Wall41_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-34.563528384449775, 0.52, 30.80959313254406)
+rotation = Vector3(0, 0.3723203177862271, 0)
+shape = SubResource("Wall41_Outer")
+
+[node name="Wall42_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-20.369012682913926, 0.52, 22.455401460520317)
+rotation = Vector3(0, 0.3262233455782992, 0)
+shape = SubResource("Wall42_Inner")
+
+[node name="Wall42_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-35.71461483989334, 0.52, 27.646980646058065)
+rotation = Vector3(0, 0.3262233455782992, 0)
+shape = SubResource("Wall42_Outer")
+
+[node name="Wall43_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-21.174111989186216, 0.52, 19.887503751178745)
+rotation = Vector3(0, 0.2818681327921299, 0)
+shape = SubResource("Wall43_Inner")
+
+[node name="Wall43_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-36.73481936863902, 0.52, 24.393542571588835)
+rotation = Vector3(0, 0.2818681327921299, 0)
+shape = SubResource("Wall43_Outer")
+
+[node name="Wall44_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-21.883072078101538, 0.52, 17.2250216432033)
+rotation = Vector3(0, 0.2389914382881943, 0)
+shape = SubResource("Wall44_Inner")
+
+[node name="Wall44_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-37.622623018746545, 0.52, 21.05993183600323)
+rotation = Vector3(0, 0.2389914382881943, 0)
+shape = SubResource("Wall44_Outer")
+
+[node name="Wall45_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-22.4910295738751, 0.52, 14.480720431872959)
+rotation = Vector3(0, 0.1973480423763899, 0)
+shape = SubResource("Wall45_Inner")
+
+[node name="Wall45_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-38.37658746901473, 0.52, 17.657046983121585)
+rotation = Vector3(0, 0.1973480423763899, 0)
+shape = SubResource("Wall45_Outer")
+
+[node name="Wall46_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-22.99391574843829, 0.52, 11.667725042662203)
+rotation = Vector3(0, 0.15670839675801823, 0)
+shape = SubResource("Wall46_Inner")
+
+[node name="Wall46_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-38.99540656379409, 0.52, 14.196023222482742)
+rotation = Vector3(0, 0.15670839675801823, 0)
+shape = SubResource("Wall46_Outer")
+
+[node name="Wall47_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-23.388433249429035, 0.52, 8.79944693660743)
+rotation = Vector3(0, 0.11685606904589366, 0)
+shape = SubResource("Wall47_Inner")
+
+[node name="Wall47_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-39.47795079720704, 0.52, 10.688209780307927)
+rotation = Vector3(0, 0.11685606904589366, 0)
+shape = SubResource("Wall47_Outer")
+
+[node name="Wall48_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-23.67203698339477, 0.52, 5.889519065102487)
+rotation = Vector3(0, 0.07758510703063826, 0)
+shape = SubResource("Wall48_Inner")
+
+[node name="Wall48_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-39.82330390073181, 0.52, 7.145137225585184)
+rotation = Vector3(0, 0.07758510703063826, 0)
+shape = SubResource("Wall48_Outer")
+
+[node name="Wall49_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-23.842919379417392, 0.52, 2.9517363780926833)
+rotation = Vector3(0, 0.038697390439603095, 0)
+shape = SubResource("Wall49_Inner")
+
+[node name="Wall49_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-40.030791239991984, 0.52, 3.5784776529559292)
+rotation = Vector3(0, 0.038697390439603095, 0)
+shape = SubResource("Wall49_Outer")
+
+[node name="Wall50_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-23.9, 0.52, 5.757724027991248e-15)
+rotation = Vector3(0, 7.536287994752943e-17, 0)
+shape = SubResource("Wall50_Inner")
+
+[node name="Wall50_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-40.1, 0.52, 6.978602683141225e-15)
+rotation = Vector3(0, 7.536287994752943e-17, 0)
+shape = SubResource("Wall50_Outer")
+
+[node name="Wall51_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-23.842919379417392, 0.52, -2.951736378092672)
+rotation = Vector3(0, -0.03869739043960295, 0)
+shape = SubResource("Wall51_Inner")
+
+[node name="Wall51_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-40.030791239991984, 0.52, -3.5784776529559155)
+rotation = Vector3(0, -0.03869739043960295, 0)
+shape = SubResource("Wall51_Outer")
+
+[node name="Wall52_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-23.67203698339477, 0.52, -5.889519065102476)
+rotation = Vector3(0, -0.0775851070306381, 0)
+shape = SubResource("Wall52_Inner")
+
+[node name="Wall52_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-39.823303900731815, 0.52, -7.14513722558517)
+rotation = Vector3(0, -0.0775851070306381, 0)
+shape = SubResource("Wall52_Outer")
+
+[node name="Wall53_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-23.388433249429035, 0.52, -8.799446936607437)
+rotation = Vector3(0, -0.1168560690458938, 0)
+shape = SubResource("Wall53_Inner")
+
+[node name="Wall53_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-39.477950797207036, 0.52, -10.688209780307938)
+rotation = Vector3(0, -0.1168560690458938, 0)
+shape = SubResource("Wall53_Outer")
+
+[node name="Wall54_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-22.993915748438297, 0.52, -11.667725042662171)
+rotation = Vector3(0, -0.15670839675801776, 0)
+shape = SubResource("Wall54_Inner")
+
+[node name="Wall54_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-38.9954065637941, 0.52, -14.196023222482703)
+rotation = Vector3(0, -0.15670839675801776, 0)
+shape = SubResource("Wall54_Outer")
+
+[node name="Wall55_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-22.491029573875103, 0.52, -14.48072043187295)
+rotation = Vector3(0, -0.19734804237638973, 0)
+shape = SubResource("Wall55_Inner")
+
+[node name="Wall55_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-38.37658746901473, 0.52, -17.65704698312157)
+rotation = Vector3(0, -0.19734804237638973, 0)
+shape = SubResource("Wall55_Outer")
+
+[node name="Wall56_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-21.88307207810154, 0.52, -17.22502164320329)
+rotation = Vector3(0, -0.23899143828819414, 0)
+shape = SubResource("Wall56_Inner")
+
+[node name="Wall56_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-37.62262301874655, 0.52, -21.059931836003216)
+rotation = Vector3(0, -0.23899143828819414, 0)
+shape = SubResource("Wall56_Outer")
+
+[node name="Wall57_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-21.174111989186223, 0.52, -19.887503751178716)
+rotation = Vector3(0, -0.2818681327921294, 0)
+shape = SubResource("Wall57_Inner")
+
+[node name="Wall57_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-36.73481936863904, 0.52, -24.3935425715888)
+rotation = Vector3(0, -0.2818681327921294, 0)
+shape = SubResource("Wall57_Outer")
+
+[node name="Wall58_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-20.369012682913926, 0.52, -22.455401460520324)
+rotation = Vector3(0, -0.3262233455782993, 0)
+shape = SubResource("Wall58_Inner")
+
+[node name="Wall58_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-35.71461483989334, 0.52, -27.646980646058072)
+rotation = Vector3(0, -0.3262233455782993, 0)
+shape = SubResource("Wall58_Outer")
+
+[node name="Wall59_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-19.473458847679186, 0.52, -24.916393545271596)
+rotation = Vector3(0, -0.3723203177862266, 0)
+shape = SubResource("Wall59_Inner")
+
+[node name="Wall59_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-34.56352838444978, 0.52, -30.80959313254403)
+rotation = Vector3(0, -0.3723203177862266, 0)
+shape = SubResource("Wall59_Outer")
+
+[node name="Wall60_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-18.49398480659791, 0.52, -27.25870290438965)
+rotation = Vector3(0, -0.4204422470395564, 0)
+shape = SubResource("Wall60_Inner")
+
+[node name="Wall60_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-33.28310283339874, 0.52, -33.87096333402751)
+rotation = Vector3(0, -0.4204422470395564, 0)
+shape = SubResource("Wall60_Outer")
+
+[node name="Wall61_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-17.438001129263135, 0.52, -29.471217593773506)
+rotation = Vector3(0, -0.4708934771427533, 0)
+shape = SubResource("Wall61_Inner")
+
+[node name="Wall61_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-31.874846408387377, 0.52, -36.82087734009022)
+rotation = Vector3(0, -0.4708934771427533, 0)
+shape = SubResource("Wall61_Outer")
+
+[node name="Wall62_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-16.313813581743887, 0.52, -31.543639214011066)
+rotation = Vector3(0, -0.5239994452010628, 0)
+shape = SubResource("Wall62_Inner")
+
+[node name="Wall62_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-30.340178573226474, 0.52, -39.64925980257253)
+rotation = Vector3(0, -0.5239994452010628, 0)
+shape = SubResource("Wall62_Outer")
+
+[node name="Wall63_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-15.13062458398262, 0.52, -33.46666559884609)
+rotation = Vector3(0, -0.5801046681921049, 0)
+shape = SubResource("Wall63_Inner")
+
+[node name="Wall63_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-28.68039019545345, 0.52, -42.34607165298071)
+rotation = Vector3(0, -0.5801046681921049, 0)
+shape = SubResource("Wall63_Outer")
+
+[node name="Wall64_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-13.89850185877866, 0.52, -35.23221413832266)
+rotation = Vector3(0, -0.6395677777754663, 0)
+shape = SubResource("Wall64_Inner")
+
+[node name="Wall64_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-26.89663348513747, 0.52, -44.901163110359434)
+rotation = Vector3(0, -0.6395677777754663, 0)
+shape = SubResource("Wall64_Outer")
+
+[node name="Wall65_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-12.62829180101145, 0.52, -36.83368906217308)
+rotation = Vector3(0, -0.7027523090086026, 0)
+shape = SubResource("Wall65_Inner")
+
+[node name="Wall65_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-24.989964345706838, 0.52, -47.30407835282145)
+rotation = Vector3(0, -0.7027523090086026, 0)
+shape = SubResource("Wall65_Outer")
+
+[node name="Wall66_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-11.331446876808961, 0.52, -38.26628877251446)
+rotation = Vector3(0, -0.7700116801720964, 0)
+shape = SubResource("Wall66_Inner")
+
+[node name="Wall66_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-22.961468001846804, 0.52, -49.54381547969513)
+rotation = Vector3(0, -0.7700116801720964, 0)
+shape = SubResource("Wall66_Outer")
+
+[node name="Wall67_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-10.01972908167757, 0.52, -39.527335533206184)
+rotation = Vector3(0, -0.8416667019804138, 0)
+shape = SubResource("Wall67_Inner")
+
+[node name="Wall67_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-20.812506060832206, 0.52, -51.608559191355624)
+rotation = Vector3(0, -0.8416667019804138, 0)
+shape = SubResource("Wall67_Outer")
+
+[node name="Wall68_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-8.704749503007701, 0.52, -40.61658742682697)
+rotation = Vector3(0, -0.9179742582421442, 0)
+shape = SubResource("Wall68_Inner")
+
+[node name="Wall68_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-18.545125157156917, 0.52, -53.485426029639086)
+rotation = Vector3(0, -0.9179742582421442, 0)
+shape = SubResource("Wall68_Outer")
+
+[node name="Wall69_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-7.397314807590195, 0.52, -41.5364615318064)
+rotation = Vector3(0, -0.9990868392061811, 0)
+shape = SubResource("Wall69_Inner")
+
+[node name="Wall69_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-16.162656564229184, 0.52, -55.16029300057175)
+rotation = Vector3(0, -0.9990868392061811, 0)
+shape = SubResource("Wall69_Outer")
+
+[node name="Wall70_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-6.106584867352456, 0.52, -42.29206327391368)
+rotation = Vector3(0, -1.0850047373373193, 0)
+shape = SubResource("Wall70_Inner")
+
+[node name="Wall70_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-13.670502772644188, 0.52, -56.61781442078228)
+rotation = Vector3(0, -1.0850047373373193, 0)
+shape = SubResource("Wall70_Outer")
+
+[node name="Wall71_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-4.839109749662243, 0.52, -42.890894819059454)
+rotation = Vector3(0, -1.1755260819371045, 0)
+shape = SubResource("Wall71_Inner")
+
+[node name="Wall71_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-11.07704302888844, 0.52, -57.84175393831819)
+rotation = Vector3(0, -1.1755260819371045, 0)
+shape = SubResource("Wall71_Outer")
+
+[node name="Wall72_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-3.59790557876818, 0.52, -43.342130593643205)
+rotation = Vector3(0, -1.270204041895924, 0)
+shape = SubResource("Wall72_Inner")
+
+[node name="Wall72_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-8.394498554718197, 0.52, -58.81574348214042)
+rotation = Vector3(0, -1.270204041895924, 0)
+shape = SubResource("Wall72_Outer")
+
+[node name="Wall73_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-2.3818202412895655, 0.52, -43.6554279523952)
+rotation = Vector3(0, -1.3683240090682964, 0)
+shape = SubResource("Wall73_Inner")
+
+[node name="Wall73_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-5.639506706825928, 0.52, -59.52450098431049)
+rotation = Vector3(0, -1.3683240090682964, 0)
+shape = SubResource("Wall73_Outer")
+
+[node name="Wall74_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-1.1854765196245067, 0.52, -43.83939258154178)
+rotation = Vector3(0, -1.468913975712497, 0)
+shape = SubResource("Wall74_Inner")
+
+[node name="Wall74_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-2.8331167302515388, 0.52, -59.95538717499846)
+rotation = Vector3(0, -1.468913975712497, 0)
+shape = SubResource("Wall74_Outer")
+
+[node name="Wall75_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-3.46039261184074e-15, 0.52, -43.9)
+rotation = Vector3(0, -1.5707963267948963, 0)
+shape = SubResource("Wall75_Inner")
+
+[node name="Wall75_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(-8.29621665997385e-15, 0.52, -60.1)
+rotation = Vector3(0, -1.5707963267948963, 0)
+shape = SubResource("Wall75_Outer")
+
+[node name="Wall76_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(1.1854765196244994, 0.52, -43.83939258154178)
+rotation = Vector3(0, -1.6726786778772955, 0)
+shape = SubResource("Wall76_Inner")
+
+[node name="Wall76_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(2.833116730251522, 0.52, -59.95538717499846)
+rotation = Vector3(0, -1.6726786778772955, 0)
+shape = SubResource("Wall76_Outer")
+
+[node name="Wall77_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(2.3818202412895584, 0.52, -43.6554279523952)
+rotation = Vector3(0, -1.7732686445214962, 0)
+shape = SubResource("Wall77_Inner")
+
+[node name="Wall77_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(5.639506706825912, 0.52, -59.52450098431049)
+rotation = Vector3(0, -1.7732686445214962, 0)
+shape = SubResource("Wall77_Outer")
+
+[node name="Wall78_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(3.597905578768173, 0.52, -43.342130593643205)
+rotation = Vector3(0, -1.871388611693869, 0)
+shape = SubResource("Wall78_Inner")
+
+[node name="Wall78_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(8.39449855471818, 0.52, -58.81574348214042)
+rotation = Vector3(0, -1.871388611693869, 0)
+shape = SubResource("Wall78_Outer")
+
+[node name="Wall79_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(4.839109749662253, 0.52, -42.89089481905945)
+rotation = Vector3(0, -1.9660665716526895, 0)
+shape = SubResource("Wall79_Inner")
+
+[node name="Wall79_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(11.077043028888463, 0.52, -57.841753938318185)
+rotation = Vector3(0, -1.9660665716526895, 0)
+shape = SubResource("Wall79_Outer")
+
+[node name="Wall80_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(6.106584867352449, 0.52, -42.29206327391368)
+rotation = Vector3(0, -2.0565879162524734, 0)
+shape = SubResource("Wall80_Inner")
+
+[node name="Wall80_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(13.670502772644173, 0.52, -56.617814420782295)
+rotation = Vector3(0, -2.0565879162524734, 0)
+shape = SubResource("Wall80_Outer")
+
+[node name="Wall81_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(7.397314807590186, 0.52, -41.53646153180641)
+rotation = Vector3(0, -2.1425058143836115, 0)
+shape = SubResource("Wall81_Inner")
+
+[node name="Wall81_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(16.16265656422917, 0.52, -55.160293000571755)
+rotation = Vector3(0, -2.1425058143836115, 0)
+shape = SubResource("Wall81_Outer")
+
+[node name="Wall82_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(8.704749503007692, 0.52, -40.616587426826975)
+rotation = Vector3(0, -2.2236183953476485, 0)
+shape = SubResource("Wall82_Inner")
+
+[node name="Wall82_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(18.545125157156903, 0.52, -53.48542602963909)
+rotation = Vector3(0, -2.2236183953476485, 0)
+shape = SubResource("Wall82_Outer")
+
+[node name="Wall83_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(10.019729081677582, 0.52, -39.527335533206184)
+rotation = Vector3(0, -2.2999259516093797, 0)
+shape = SubResource("Wall83_Inner")
+
+[node name="Wall83_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(20.812506060832224, 0.52, -51.60855919135561)
+rotation = Vector3(0, -2.2999259516093797, 0)
+shape = SubResource("Wall83_Outer")
+
+[node name="Wall84_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(11.331446876808972, 0.52, -38.26628877251444)
+rotation = Vector3(0, -2.3715809734176974, 0)
+shape = SubResource("Wall84_Inner")
+
+[node name="Wall84_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(22.96146800184682, 0.52, -49.54381547969511)
+rotation = Vector3(0, -2.3715809734176974, 0)
+shape = SubResource("Wall84_Outer")
+
+[node name="Wall85_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(12.628291801011441, 0.52, -36.83368906217308)
+rotation = Vector3(0, -2.43884034458119, 0)
+shape = SubResource("Wall85_Inner")
+
+[node name="Wall85_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(24.989964345706824, 0.52, -47.30407835282146)
+rotation = Vector3(0, -2.43884034458119, 0)
+shape = SubResource("Wall85_Outer")
+
+[node name="Wall86_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(13.898501858778655, 0.52, -35.232214138322675)
+rotation = Vector3(0, -2.502024875814327, 0)
+shape = SubResource("Wall86_Inner")
+
+[node name="Wall86_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(26.89663348513746, 0.52, -44.90116311035945)
+rotation = Vector3(0, -2.502024875814327, 0)
+shape = SubResource("Wall86_Outer")
+
+[node name="Wall87_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(15.130624583982602, 0.52, -33.46666559884611)
+rotation = Vector3(0, -2.5614879853976875, 0)
+shape = SubResource("Wall87_Inner")
+
+[node name="Wall87_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(28.680390195453427, 0.52, -42.34607165298075)
+rotation = Vector3(0, -2.5614879853976875, 0)
+shape = SubResource("Wall87_Outer")
+
+[node name="Wall88_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(16.313813581743865, 0.52, -31.543639214011087)
+rotation = Vector3(0, -2.6175932083887297, 0)
+shape = SubResource("Wall88_Inner")
+
+[node name="Wall88_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(30.340178573226453, 0.52, -39.649259802572566)
+rotation = Vector3(0, -2.6175932083887297, 0)
+shape = SubResource("Wall88_Outer")
+
+[node name="Wall89_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(17.438001129263142, 0.52, -29.471217593773506)
+rotation = Vector3(0, -2.67069917644704, 0)
+shape = SubResource("Wall89_Inner")
+
+[node name="Wall89_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(31.874846408387377, 0.52, -36.82087734009021)
+rotation = Vector3(0, -2.67069917644704, 0)
+shape = SubResource("Wall89_Outer")
+
+[node name="Wall90_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(18.4939848065979, 0.52, -27.258702904389683)
+rotation = Vector3(0, -2.7211504065502363, 0)
+shape = SubResource("Wall90_Inner")
+
+[node name="Wall90_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(33.28310283339873, 0.52, -33.87096333402755)
+rotation = Vector3(0, -2.7211504065502363, 0)
+shape = SubResource("Wall90_Outer")
+
+[node name="Wall91_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(19.473458847679176, 0.52, -24.916393545271628)
+rotation = Vector3(0, -2.769272335803566, 0)
+shape = SubResource("Wall91_Inner")
+
+[node name="Wall91_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(34.56352838444977, 0.52, -30.80959313254407)
+rotation = Vector3(0, -2.769272335803566, 0)
+shape = SubResource("Wall91_Outer")
+
+[node name="Wall92_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(20.369012682913915, 0.52, -22.45540146052036)
+rotation = Vector3(0, -2.815369308011493, 0)
+shape = SubResource("Wall92_Inner")
+
+[node name="Wall92_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(35.71461483989333, 0.52, -27.646980646058115)
+rotation = Vector3(0, -2.815369308011493, 0)
+shape = SubResource("Wall92_Outer")
+
+[node name="Wall93_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(21.174111989186216, 0.52, -19.887503751178752)
+rotation = Vector3(0, -2.859724520797663, 0)
+shape = SubResource("Wall93_Inner")
+
+[node name="Wall93_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(36.73481936863902, 0.52, -24.393542571588842)
+rotation = Vector3(0, -2.859724520797663, 0)
+shape = SubResource("Wall93_Outer")
+
+[node name="Wall94_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(21.88307207810154, 0.52, -17.225021643203288)
+rotation = Vector3(0, -2.902601215301599, 0)
+shape = SubResource("Wall94_Inner")
+
+[node name="Wall94_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(37.62262301874655, 0.52, -21.059931836003212)
+rotation = Vector3(0, -2.902601215301599, 0)
+shape = SubResource("Wall94_Outer")
+
+[node name="Wall95_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(22.4910295738751, 0.52, -14.480720431872964)
+rotation = Vector3(0, -2.9442446112134033, 0)
+shape = SubResource("Wall95_Inner")
+
+[node name="Wall95_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(38.37658746901472, 0.52, -17.657046983121592)
+rotation = Vector3(0, -2.9442446112134033, 0)
+shape = SubResource("Wall95_Outer")
+
+[node name="Wall96_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(22.99391574843829, 0.52, -11.667725042662209)
+rotation = Vector3(0, -2.984884256831775, 0)
+shape = SubResource("Wall96_Inner")
+
+[node name="Wall96_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(38.99540656379409, 0.52, -14.196023222482747)
+rotation = Vector3(0, -2.984884256831775, 0)
+shape = SubResource("Wall96_Outer")
+
+[node name="Wall97_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(23.388433249429035, 0.52, -8.799446936607435)
+rotation = Vector3(0, -3.0247365845438994, 0)
+shape = SubResource("Wall97_Inner")
+
+[node name="Wall97_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(39.47795079720704, 0.52, -10.688209780307933)
+rotation = Vector3(0, -3.0247365845438994, 0)
+shape = SubResource("Wall97_Outer")
+
+[node name="Wall98_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(23.67203698339477, 0.52, -5.889519065102492)
+rotation = Vector3(0, -3.064007546559155, 0)
+shape = SubResource("Wall98_Inner")
+
+[node name="Wall98_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(39.82330390073181, 0.52, -7.1451372255851915)
+rotation = Vector3(0, -3.064007546559155, 0)
+shape = SubResource("Wall98_Outer")
+
+[node name="Wall99_Inner" type="CollisionShape3D" parent="Walls"]
+position = Vector3(23.842919379417392, 0.52, -2.9517363780926686)
+rotation = Vector3(0, -3.1028952631501903, 0)
+shape = SubResource("Wall99_Inner")
+
+[node name="Wall99_Outer" type="CollisionShape3D" parent="Walls"]
+position = Vector3(40.030791239991984, 0.52, -3.578477652955911)
+rotation = Vector3(0, -3.1028952631501903, 0)
+shape = SubResource("Wall99_Outer")
+
+[node name="Start" type="Marker3D" parent="."]
+position = Vector3(32, 0.6, 9)
+
+[node name="North" type="Area3D" parent="."]
+position = Vector3(0, 1, -52)
+rotation = Vector3(0, 1.5707963267948966, 0)
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="North"]
+shape = SubResource("GateShape")
+
+[node name="West" type="Area3D" parent="."]
+position = Vector3(-32, 1, 0)
+rotation = Vector3(0, 3.141592653589793, 0)
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="West"]
+shape = SubResource("GateShape")
+
+[node name="South" type="Area3D" parent="."]
+position = Vector3(0, 1, 52)
+rotation = Vector3(0, -1.5707963267948966, 0)
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="South"]
+shape = SubResource("GateShape")
+
+[node name="Finish" type="Area3D" parent="."]
+position = Vector3(32, 1, 0)
+rotation = Vector3(0, 0, 0)
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Finish"]
+shape = SubResource("GateShape")
